@@ -1,12 +1,12 @@
 # UE_Git_AGEA
 
-## Changes as of 11/14 12am by Gordon Tan
+## Changes as of 11/16 11pm by Gordon Tan
 ```bash
--Added Widgets folder
-  -Added PlayerHUD widget (Displays health in text and progress bar at bottom left of screen)
+-Added Materials folder
+  -Added BloodSplatter png and material file
+->Widgets
+  -Added BloodSplatterDamageIndicator
 ->ThirdPersonBP->Blueprints
-  -Added DamagePlayer blueprint (Damages player on trigger)
-  -Added HealPlayer blueprint (Heals player on trigger)
-  -Added Jumpscare blueprint (Plays sound on trigger)
-  (Each of these blueprints have been added to the scene once)
+  -Changed DamagePlayer blueprint (Increases blood splatter opacity)
+  -Changed HealPlayer blueprint (Decreases blood splatter opacity)
 ```
